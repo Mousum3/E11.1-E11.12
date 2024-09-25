@@ -24,7 +24,7 @@ public class CWLcounter {
             System.out.println("Number of lines: " + lineCount);
 
         } catch (FileNotFoundException e) {
-            System.out.println("File not found: " + fileName);
+            e.printStackTrace();
         }
     }
 }
